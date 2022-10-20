@@ -43,7 +43,7 @@ const hasSame = ['fontName', 'fontSize', 'fontWeightValue', 'letterSpacingValue'
 const textNodesConfigs = getTextNodesConfigs()
 
 const textNodesConfigsDedup = textNodesConfigs
-  .reduce((acc, curr) => {
+  ?.reduce((acc, curr) => {
     const f = acc
       .find(a => {
         return hasSame.every(property => a[property] === curr[property])
