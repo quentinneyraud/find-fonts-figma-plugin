@@ -1,0 +1,10 @@
+{
+  "name": "Find fonts",
+  "id": "1164849098355950569",
+  "api": "1.0.0",
+  "main": "./dist/code.js",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "src/ui/ui.html"
+}

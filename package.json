@@ -1,0 +1,31 @@
+{
+  "name": "Find-fonts",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "./dist/code.js",
+  "scripts": {
+    "dev": "run-p livereload dev:*",
+    "dev:plugin": "vite build --watch",
+    "build": "vite build",
+    "livereload": "nodemon --watch dist/code.js --exec ./mac-autoreload-figma.sh"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@nuxtjs/eslint-config": "^8.0.0",
+    "@qneyraud/eslint-config": "1.0.21",
+    "eslint": "^8.10.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-import-resolver-nuxt": "^1.0.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-nuxt": "^3.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "vite": "^3.1.8",
+    "vite-plugin-singlefile": "^0.12.3"
+  }
+}
