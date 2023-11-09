@@ -39,6 +39,8 @@ const parseTextNode = textNode => {
 
 console.clear()
 
+console.log(figma)
+
 const hasSame = ['fontName', 'fontSize', 'fontWeightValue', 'letterSpacingValue', 'lineHeightValue']
 const textNodesConfigs = getTextNodesConfigs()
 
